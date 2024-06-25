@@ -19,6 +19,7 @@ Let’s start clicking! 🎉"""
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    ##sdfsdfsd
     keyboard = types.InlineKeyboardMarkup()  # создаем inline клавиатуру
     key_launch = types.InlineKeyboardButton(text='Launch', callback_data='launch')  # создаем кнопку
     keyboard.add(key_launch)  # добавляем кнопку в клавиатуру
