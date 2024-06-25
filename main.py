@@ -32,3 +32,4 @@ def handle(call):
     bot.send_message(call.message.chat.id, 'You clicked Launch!')
 
 bot.polling(none_stop=True, interval=0)
+#print("Hello!")
